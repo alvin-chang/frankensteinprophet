@@ -9,7 +9,7 @@ A put-together by duck tape kind of software system that gives you:
 I was bored.
 
 # Day 1
-This week, yah, since 4 days ago, I started putting together a trading system. Obviously, I searched the internet for existing tools. Interestingly, I found blog posts by Eric Brown at https://pythondata.com/stock-market-forecasting-with-prophet/, and took a copy of https://github.com/urgedata/pythondata/blob/master/fbprophet/fbprophet_market_forecasts.ipynb to play with.
+I started putting together a trading system. Obviously, I searched the internet for existing tools. Interestingly, I found blog posts by Eric Brown at https://pythondata.com/stock-market-forecasting-with-prophet/, and took a copy of https://github.com/urgedata/pythondata/blob/master/fbprophet/fbprophet_market_forecasts.ipynb to play with.
 Previously, I was using Finance::QuoteHist by Gnucash from https://wiki.gnucash.org/wiki/Stocks/get_prices to get prices into a CSV, hence it became quite handy.
 Very soon, I glued together the get_prices, and made a new version called get_quotes2prophet to change the format to be accepted by Facebook Prophet, and fbprophet_market_forecasts.ipynb, and I had predictions for NYSE:JNJ. I was then using a Bash loop with awk to fetch the new CSV, and ran each Jupyter Notebook manually. Ugly, I know.
 # Day 2
