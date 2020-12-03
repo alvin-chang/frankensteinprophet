@@ -1,6 +1,10 @@
 # frankensteinprophet
 Frankanstein Prophet
 
+A put-together by duck tape kind of software system that gives you:
+![](Screenshot%202020-12-03%20at%2011.48.06.png)
+![](Screenshot%202020-12-03%20at%2011.45.32.png)
+
 # Day 0
 I was bored.
 
