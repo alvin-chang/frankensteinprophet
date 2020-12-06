@@ -20,4 +20,5 @@ I was experimenting minute-by-minute trade information, and have predictions for
 First, I made the Jupyter Notebook run through a list of hard-coded symbols (ugly I know, but I was in a hurry helping a friend.) Now I'm pulling a list of tickers from a file, and run in series each prediction model. This is the point where I'm going to upload it to GitHub so anyone non-technical can use it. Well, you might have to get a Jupyter Notebook container running, or just run it on https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo.
 # Day 5
 I tried to make the prediction run in parallel by using multiprocessing.Pool() as shown in https://medium.com/spikelab/forecasting-multiples-time-series-using-prophet-in-parallel-2515abd1a245. However, it doesn't work because of Python uses spawn instead of fork on Mac. Anyway, I had to use multiprocessing.Process() and do what the Pool() does, but manually because only Process() supports a shared dictionary between the main programme and the spawned process.
-# This is the stop point of the current endeavour.
+# Day 6
+Programming is addictive, and now I made a rudimentary queue of the size of the number of CPU cores. What happened was instead of running all 32 predictions simultaneously from the day before, it now runs in the batches of the number of CPU you have.
