@@ -22,3 +22,5 @@ First, I made the Jupyter Notebook run through a list of hard-coded symbols (ugl
 I tried to make the prediction run in parallel by using multiprocessing.Pool() as shown in https://medium.com/spikelab/forecasting-multiples-time-series-using-prophet-in-parallel-2515abd1a245. However, it doesn't work because of Python uses spawn instead of fork on Mac. Anyway, I had to use multiprocessing.Process() and do what the Pool() does, but manually because only Process() supports a shared dictionary between the main programme and the spawned process.
 # Day 6
 Programming is addictive, and now I made a rudimentary queue of the size of the number of CPU cores. What happened was instead of running all 32 predictions simultaneously from the day before, it now runs in the batches of the number of CPU you have.
+# Day 7
+Well, it's never done until it's done. In order to debug the mysterious failure, I've installed Jupyter Lab directly on my Mac Mini server. That comes with strange "Python doesn't consider it a bug" feature that function must be defined in a separate file. Nevertheless, it's now reliably churning out S&P 500 and FTSE 100.
