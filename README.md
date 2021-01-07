@@ -5,6 +5,9 @@ A put-together by duck tape kind of software system that gives you:
 ![](Screenshot%202020-12-03%20at%2011.48.06.png)
 ![](Screenshot%202020-12-03%20at%2011.45.32.png)
 
+<details>
+  <summary>History</summary>
+
 # Day 0
 I was bored.
 
@@ -24,3 +27,4 @@ I tried to make the prediction run in parallel by using multiprocessing.Pool() a
 Programming is addictive, and now I made a rudimentary queue of the size of the number of CPU cores. What happened was instead of running all 32 predictions simultaneously from the day before, it now runs in the batches of the number of CPU you have.
 # Day 7
 Well, it's never done until it's done. In order to debug the mysterious failure, I've installed Jupyter Lab directly on my Mac Mini server. That comes with strange ["Python doesn't consider it a bug" **feature**](https://bugs.python.org/issue25053) that function must be defined in a separate file. Nevertheless, it's now reliably churning out S&P 500 and FTSE 100.
+</details>
