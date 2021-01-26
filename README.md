@@ -34,8 +34,11 @@ Well, it's never done until it's done. In order to debug the mysterious failure,
 # Today
 The codebase now have
 - classical gression
+
 -- day-by-day for the next 365 days;
 -- minute-by-minute for the next 24 hours;
+
 - neural network AR
+
 -- day-by-day for the next 365 days;
 -- TODO: minute-by-minute for the next 24 hours.
