@@ -40,3 +40,5 @@ The codebase now have
 - neural network AR
   - day-by-day for the next 365 days;
   - TODO: minute-by-minute for the next 24 hours.
+
+- reporting of your return by processing downloaded csv
