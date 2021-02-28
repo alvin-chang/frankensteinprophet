@@ -42,3 +42,6 @@ The codebase now have
   - TODO: minute-by-minute for the next 24 hours.
 
 - reporting of your return by processing downloaded csv
+
+# Trading 212
+Obviously, I use Trading 212 to trade, and if you're opening a new account, please use my referral link www.trading212.com/invite/HEJ7qhfc so you and I both get a free share.
